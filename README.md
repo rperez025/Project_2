@@ -1,6 +1,7 @@
 ## Project_2: ETL
 
 **Team Red XIII**: Kristina Swanson, Mel Runser, Dante Dillahunt, Rufin Perez
+
 **Due**: Tuesday, December 12, 2023
 
 **PROJECT REPORT**
