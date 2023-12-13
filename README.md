@@ -8,12 +8,12 @@
 
 **PROJECT REPORT**
 
-#Project Proposal
+## Project Proposal
 
 We thought it would be interesting to see food waste to income on a global scale.
 Our team will find 2 sources of data reviewing the Kaggle (https://www.kaggle.com) website and will perform, among other procedures, a merging of the datasets as part of the ETL process.
 
-#Finding the Data
+## Finding the Data
 
 We obtained 2 datasets (datasets) from Kaggle related to:
 * Global Food Waste (File name: [‘Food Waste data and research - by country.csv’](https://www.kaggle.com/datasets/joebeachcapital/food-waste); File Type: CSV)
@@ -21,7 +21,7 @@ We obtained 2 datasets (datasets) from Kaggle related to:
 
 Based on review of the 2 datasets, we determined that we will use the country as the column to join the datasets. 
 
-#Data Cleanup & Analysis
+## Data Cleanup & Analysis
 
 We created a Jupyter Notebook file (file) to document the code for this project. We performed the following Extract-Transform-Load (ETL) procedures:
 
@@ -48,7 +48,7 @@ As a result of the renaming procedures above, this allowed the join to properly 
 
 * Converted the combined DataFrame to a list of dictionaries (‘foodWaste_DICT’) to prepare it for import into MongoDB Compass.
 
-#LOAD
+## LOAD
 * Our team decided to prepare the file for loading into MongoDB Compass (non-relational database) since initially the datasets did not include the same ‘records’ of information.
 
 * Created an instance of MongoClient.
@@ -65,7 +65,7 @@ As a result of the renaming procedures above, this allowed the join to properly 
 
 * Exported the Project2_collection (‘foodWasteDF’) to a CSV file.   
 
-#CONCLUSIONS 
+## CONCLUSIONS 
 
 **Project ETL**:
 Our team extracted 2 CSV files for this project, performing ETL procedures to get the data into a usable format for use in a non-relational production database. We created a GitHub repository named Project_2, which includes our Jupyter Notebook file, the 2 dataset CSV files, and this Project Report (markdown file). Each team member will copy the GitHub url into our individual Bootcampspot / Canvas for submission.
