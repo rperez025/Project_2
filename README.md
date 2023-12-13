@@ -4,7 +4,7 @@
 
 **Due**: Tuesday, December 12, 2023
 
-**PROJECT REPORT**
+## **PROJECT REPORT**
 
 ## Project Proposal
 
