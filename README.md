@@ -69,7 +69,7 @@ As a result of the renaming procedures above, this allowed the join to properly 
 Our team extracted 2 CSV files for this project, performing ETL procedures to get the data into a usable format for use in a non-relational production database. We created a GitHub repository named Project_2, which includes our Jupyter Notebook file, the 2 dataset CSV files, and this Project Report (markdown file). Each team member will copy the GitHub url into our individual Bootcampspot / Canvas for submission.
 
 **Data Analysis**:
-The data shows that the higher the income, the lower the food waste. For example, one part of Europe has an average income of $4096 monthly with 1971 tonnes of waste. While another part of Europe has an average income of $956 with 79,651 tonnes of food waste. Africa has an average income of $314 monthly with 87,9908 tonnes of food waste. I reached out to several buyers of local companies and here are some of the takeaways.
+The data shows that the higher the income, the lower the food waste. For example, one part of Europe has an average income of $4096 monthly with 1971 tonnes of waste. While another part of Europe has an average income of $956 with 79,651 tonnes of food waste. Africa has an average income of $314 monthly with 87,9908 tonnes of food waste. We reached out to several buyers of local companies and here are some of the takeaways.
 
 * Higher Income
   - Places with high incomes tend to purchase food daily and eat what was purchased.
