@@ -37,9 +37,9 @@ TRANSFORM
 * Discrepancies of country names between the datasets:
 These discrepancies were preventing the ‘join’ from working as intended. For example, the ‘United States’ was not properly included in the results of the join because it had been named, ‘United States of America’, in one dataset, and ‘United States’ in the other. 
 
-We performed procedures to identify the countries to be renamed by converting the ‘Country’ columns in both DataFrames to sets to find the countries unique to both the Global Food Waste and Global Salary DataFrames. Additionally, we found those countries common to both DataFrames.
+  We performed procedures to identify the countries to be renamed by converting the ‘Country’ columns in both       DataFrames to sets to find the countries unique to both the Global Food Waste and Global Salary DataFrames.       Additionally, we found those countries common to both DataFrames.
 
-We created a dictionary (‘rename_dict’) to rename and replace the country names in the Global Food Waste DataFrame. 
+  We created a dictionary (‘rename_dict’) to rename and replace the country names in the Global Food Waste          DataFrame. 
 
 * Performed a ‘left join’ to merge the food waste and salary data of each country (a combined DataFrame):
 As a result of the renaming procedures above, this allowed the join to properly work as intended - displaying the salaries for the countries that had been ‘mis-named’ before.
@@ -75,6 +75,6 @@ The data shows that the higher the income, the lower the food waste. For example
   - Places with high incomes tend to purchase food daily and eat what was purchased.
   - The food that is purchased is of higher quality and has a longer shelf life at time of purchase.
 
-*Low Income
+* Low Income
   - Places with low income tend to purchase food by paycheck to paycheck.
   - Low incomes tend to purchase food looking for deals which in most cases is a lower quality of food. 
