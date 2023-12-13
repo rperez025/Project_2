@@ -1,4 +1,4 @@
-## Project_2: ETL
+### Project 2: ETL
 
 **Team Red XIII**: Kristina Swanson, Mel Runser, Dante Dillahunt, Rufin Perez
 
