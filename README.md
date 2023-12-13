@@ -47,7 +47,7 @@ As a result of the renaming procedures above, this allowed the join to properly 
 * Converted the combined DataFrame to a list of dictionaries (‘foodWaste_DICT’) to prepare it for import into MongoDB Compass.
 
 ## LOAD
-* Our team decided to prepare the file for loading into MongoDB Compass (non-relational database) since initially the datasets did not include the same ‘records’ of information.
+* Our team decided to prepare the file for loading into MongoDB Compass (non-relational database) since initially the datasets did not include the same ‘records’ of information and it would be efficient for querying.
 
 * Created an instance of MongoClient.
 
